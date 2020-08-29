@@ -15,3 +15,6 @@ flattered/
 *.swo
 *.swp
 
+# Buidler files
+cache/
+artifacts/

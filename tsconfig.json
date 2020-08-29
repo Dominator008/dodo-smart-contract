@@ -15,7 +15,13 @@
     "typeRoots": ["node_modules/@types"],
     "types": ["node", "mocha", "chai"]
   },
-  "include": ["src", "test", "script"],
-  "exclude": ["scripts/**/*", "build/**/*", "migrations/**/*"],
+  "include": ["src", "test", "scripts"],
+  "exclude": ["build/**/*", "migrations/**/*"],
+  "files": [
+    "./buidler.config.ts",
+    "./node_modules/@nomiclabs/buidler-ethers/src/type-extensions.d.ts",
+    "./node_modules/@nomiclabs/buidler-waffle/src/type-extensions.d.ts",
+    "./node_modules/@nomiclabs/buidler-etherscan/src/type-extensions.d.ts"
+  ],
   "compileOnSave": true
 }
